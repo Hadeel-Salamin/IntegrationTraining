@@ -1,16 +1,23 @@
 {
-  "name": "romanizer",
+
+  "name": "integrationtraining",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "hello.js",
   "scripts": {
-    "test": "tape romanizer.test.js | tap-spec"
+    "test": "jshint romanizer.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadeel-Salamin/IntegrationTraining.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/Hadeel-Salamin/IntegrationTraining/issues"
+  },
+  "homepage": "https://github.com/Hadeel-Salamin/IntegrationTraining#readme",
   "devDependencies": {
-    "tap-spec": "^5.0.0",
-    "tape": "^4.9.1"
+    "jshint": "^2.9.6"
   }
 }
